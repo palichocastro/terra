@@ -16,7 +16,7 @@ module "ec2_instance" {
   name = "t1"
 
   instance_type          = "t3.micro"
-  key_name               = "vaishu"
+  key_name               = "ami-pc"
   monitoring             = true
   vpc_security_group_ids = ["sg-0015e3892d8532ec8"]
   subnet_id              = "subnet-07c39d590a9189c7e"
