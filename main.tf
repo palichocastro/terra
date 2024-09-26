@@ -19,7 +19,7 @@ module "ec2_instance" {
   key_name               = "vaishu"
   monitoring             = true
   vpc_security_group_ids = ["sg-03946aa60e5ded4b0"]
-  subnet_id              = "subnet-0bf75427a7b9569dd"
+  subnet_id              = "subnet-07c39d590a9189c7e"
 
   tags = {
     Terraform   = "true"
